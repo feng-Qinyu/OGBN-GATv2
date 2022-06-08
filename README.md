@@ -8,11 +8,7 @@
 
 ### 2 Experimental datasets.
 
-We have already upload datasets in the directory.
-
-```
-./datasets
-```
+The executive program automatically retrieves the experimental datasets. 
 
 ### 3 Load the pre-training model.
 
