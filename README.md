@@ -16,10 +16,36 @@ We have already upload datasets in the directory.
 
 ### 3 Load the pre-training model.
 
-We have already upload model in the directory.
-
+download link: https://archive.org/download/pecos-dataset/giant-xrt/ogbn-arxiv.tar.gz 
+Decompress the package and store it in the root directory.
 ```
-./model/X.all.xrt-emb.npy
+├── README.md
+├── gnn.py
+├── logger.py
+├── ogbn-arxiv
+│   ├── X.all.txt
+│   ├── X.all.xrt-emb.npy
+│   ├── params.json
+│   └── xrt_models
+│       ├── param.json
+│       ├── predict.log
+│       ├── text_encoder
+│       │   ├── C.npz
+│       │   ├── param.json
+│       │   ├── text_encoder
+│       │   │   ├── config.json
+│       │   │   └── pytorch_model.bin
+│       │   ├── text_model
+│       │   └── text_tokenizer
+│       │       ├── special_tokens_map.json
+│       │       ├── tokenizer.json
+│       │       ├── tokenizer_config.json
+│       │       └── vocab.txt
+│       └── train.log
+├── paper
+│   ├── GATv2.pdf
+│   └── Node Feature Extraction by self-supervides mylti-scale Neighborhood prediction.pdf
+└── run.sh
 ```
 
 ### 4 Run the experiment.
